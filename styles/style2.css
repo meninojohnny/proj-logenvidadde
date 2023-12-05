@@ -1,0 +1,105 @@
+@import "variables.css";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+    color: var(--text-color);
+}
+
+body {
+    background-color: var(--quartenary-color);
+}
+
+main {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    box-shadow: 0 0 10px var(--box-shadow-color);
+}
+
+section {
+    margin-bottom: 20px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.aspect-btn {
+    padding: 10px;
+    border-bottom: 1.5px solid #b5b2b2;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--terciary-color);
+    cursor: pointer;
+}
+
+.aspect-btn h1 {
+    font-size: 1em;
+}
+
+.aspect {
+    padding: 0px 10px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    display: none;
+    font-size: .9em;
+}
+
+.aspect label {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.aspect input {
+    margin-right: 5px;
+}
+
+.aspect h4 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.aspect p {
+    font-size: .8em;
+}
+
+.btn {
+    display: flex;
+    justify-content: end;
+}
+
+button {
+    padding: 8px 20px;
+    background: var(--secundary-color);
+    color: var(--primary-color);
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid var(--secundary-color);
+    color: var(--secundary-color);
+    background-color: transparent;
+}
+
+@media screen and (max-width: 850px) {
+    main {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    main {
+        width: 90%;
+    }
+}

@@ -1,0 +1,687 @@
+[
+    {
+        "aspect": "Saude Fisica",
+        "questions": [
+            {
+                "question": "Como você descreveria sua capacidade funcional no dia a dia? Existem atividades específicas que se tornaram mais desafiadoras recentemente?",
+                "alternatives": [
+                    "Mantenho minha independência em todas as atividades diárias.",
+                    "Encontro desafios ao subir escadas ou caminhar longas distâncias.",
+                    "Alguns movimentos, como agachar, tornaram-se difíceis.",
+                    "Preciso de auxílio para a maioria das atividades diárias.",
+                    "Tenho dificuldades significativas na execução de tarefas básicas."
+                ]
+            },
+            {
+                "question": "Quais condições médicas crônicas ou agudas você enfrenta atualmente e como elas impactam sua vida diária?",
+                "alternatives": [
+                    "Não tenho condições médicas significativas no momento.",
+                    "Tenho hipertensão controlada com medicação.",
+                    "Lido com diabetes e faço acompanhamento regular.",
+                    "Enfrento artrite, afetando minha mobilidade.",
+                    "Estou em tratamento para uma condição cardíaca crônica."
+                ]
+            },
+            {
+                "question": "Como está sua nutrição e há preocupações específicas relacionadas ao seu peso corporal?",
+                "alternatives": [
+                    "Mantenho uma dieta balanceada e estou satisfeito com meu peso.",
+                    "Preocupo-me em manter uma alimentação saudável, mas às vezes enfrento dificuldades.",
+                    "Tenho perdido peso sem motivo aparente.",
+                    "Lido com problemas de apetite e perda de peso.",
+                    "Enfrento desafios devido a uma condição médica específica."
+                ]
+            },
+            {
+                "question": "Você está tomando algum medicamento atualmente? Se sim, consegue gerenciar sua medicação de forma independente?",
+                "alternatives": [
+                    "Não estou tomando nenhum medicamento no momento.",
+                    "Tomo medicação, e consigo gerenciar minha medicação sem dificuldades.",
+                    "Preciso de lembretes para tomar meus medicamentos conforme prescrito.",
+                    "Tenho dificuldades para organizar minha medicação e seguir o horário correto.",
+                    "Dependo inteiramente de outra pessoa para gerenciar minha medicação."
+                ]
+            },
+            {
+                "question": "Como você avalia sua mobilidade e equilíbrio? Já teve quedas recentes ou sente-se inseguro(a) ao se locomover?",
+                "alternatives": [
+                    "Minha mobilidade e equilíbrio são excelentes, sem histórico de quedas.",
+                    "Sinto-me um pouco inseguro(a) ao caminhar em superfícies irregulares.",
+                    "Já tive algumas quedas leves nos últimos meses.",
+                    "Preciso de auxílio para me locomover devido a problemas de equilíbrio.",
+                    "Evito sair sozinho(a) devido ao medo de quedas frequentes."
+                ]
+            }
+        ]
+    },
+    {
+        "aspect": "Saude Mental",
+        "questions": [
+            {
+                "question": "Como você avalia seu estado emocional geral? Você se sente frequentemente triste, ansioso ou estressado?",
+                "alternatives": [
+                    "Geralmente me sinto positivo(a) e contente.",
+                    "Experimento ocasionais momentos de tristeza ou ansiedade.",
+                    "Sinto-me frequentemente estressado(a) devido a situações específicas.",
+                    "Tenho preocupações persistentes que impactam meu bem-estar emocional.",
+                    "Estou enfrentando uma sensação constante de tristeza ou desesperança."
+                ]
+            },
+            {
+                "question": "Como está sua memória e capacidade de concentração? Você percebe mudanças significativas em relação ao passado?",
+                "alternatives": [
+                    "Minha memória e concentração estão excelentes.",
+                    "Às vezes, enfrento pequenos lapsos de memória.",
+                    "Tenho notado dificuldade em me concentrar em tarefas específicas.",
+                    "Experimento problemas significativos de memória e concentração.",
+                    "Sinto-me constantemente confuso(a) e desorientado(a)."
+                ]
+            },
+            {
+                "question": "Você tem dificuldade para dormir ou enfrenta alterações no padrão de sono?",
+                "alternatives": [
+                    "Desfruto de noites de sono tranquilas e revitalizadoras.",
+                    "Às vezes, tenho dificuldade em adormecer, mas geralmente durmo bem.",
+                    "Enfrento insônia ocasional devido a preocupações.",
+                    "Experimento problemas persistentes de insônia.",
+                    "Tenho alterações significativas no padrão de sono."
+                ]
+            },
+            {
+                "question": "Como você lida com o estresse diário e eventos desafiadores? Possui estratégias eficazes de enfrentamento?",
+                "alternatives": [
+                    "Tenho habilidades sólidas de enfrentamento e lido bem com o estresse.",
+                    "Uso estratégias saudáveis para enfrentar o estresse, como exercícios e meditação.",
+                    "Às vezes, recorro a hábitos menos saudáveis para lidar com o estresse.",
+                    "Sinto-me sobrecarregado(a) e incapaz de lidar com o estresse.",
+                    "Preciso de suporte adicional para desenvolver estratégias eficazes de enfrentamento."
+                ]
+            },
+            {
+                "question": "Você já procurou ajuda profissional para questões relacionadas à saúde mental?",
+                "alternatives": [
+                    "Nunca senti a necessidade de procurar ajuda profissional.",
+                    "Considerei buscar ajuda, mas não tomei nenhuma decisão ainda.",
+                    "Já procurei aconselhamento ocasionalmente para lidar com desafios emocionais.",
+                    "Estou em tratamento regular com um profissional de saúde mental.",
+                    "Sinto que preciso de ajuda urgente e estou procurando assistência profissional."
+                ]
+            }
+        ]
+    },
+    {
+        "aspect": "Ambiente Doméstico e Segurança",
+        "questions": [
+            {
+                "question": "Como você descreveria o ambiente em que você mora? Ele é adaptado para suas necessidades como idoso?",
+                "alternatives": [
+                    "Minha casa é totalmente adaptada e segura para minhas necessidades.",
+                    "Fiz algumas adaptações, mas ainda existem áreas que podem ser melhoradas.",
+                    "Preciso fazer várias modificações para tornar minha casa mais segura.",
+                    "Moro em um ambiente que representa riscos à minha segurança.",
+                    "Estou considerando mudanças significativas ou mudança para um local mais adequado."
+                ]
+            },
+            {
+                "question": "Existem riscos de quedas em sua casa? Se sim, o que está sendo feito para mitigar esses riscos?",
+                "alternatives": [
+                    "Minha casa é livre de obstáculos e riscos de quedas.",
+                    "Tomei medidas para reduzir os riscos de quedas, como tapetes antiderrapantes.",
+                    "Há áreas em que preciso de ajuda para tornar mais seguras.",
+                    "Já sofri quedas em casa devido a riscos não mitigados.",
+                    "Preciso de assistência imediata para tornar minha casa segura."
+                ]
+            },
+            {
+                "question": "Como você avalia a acessibilidade de sua casa em termos de rampas, corrimãos e banheiros adaptados?",
+                "alternatives": [
+                    "Minha casa possui todas as adaptações necessárias para garantir acessibilidade.",
+                    "Fiz algumas adaptações, mas ainda existem melhorias a serem feitas.",
+                    "Preciso de mais ajustes para garantir total acessibilidade em casa.",
+                    "Minha casa é pouco acessível, e isso impacta minha mobilidade.",
+                    "Não tenho nenhuma adaptação em casa e enfrento desafios significativos devido a isso."
+                ]
+            },
+            {
+                "question": "Você se sente seguro(a) em sua vizinhança? Há preocupações específicas relacionadas à segurança externa?",
+                "alternatives": [
+                    "Sinto-me totalmente seguro(a) em minha vizinhança.",
+                    "Algumas áreas me causam preocupação, mas, em geral, sinto-me seguro(a).",
+                    "Tenho preocupações específicas em relação à segurança na vizinhança.",
+                    "Já experimentei situações de segurança preocupantes na vizinhança.",
+                    "A insegurança na vizinhança impacta significativamente minha qualidade de vida."
+                ]
+            },
+            {
+                "question": "Existe uma rede de apoio ou sistema de emergência em caso de necessidade?",
+                "alternatives": [
+                    "Tenho uma rede de apoio robusta, incluindo vizinhos, amigos e familiares.",
+                    "Além da rede de apoio, tenho um sistema de emergência instalado.",
+                    "Preciso fortalecer minha rede de apoio para situações de emergência.",
+                    "Não tenho uma rede de apoio organizada e sinto-me vulnerável.",
+                    "Estou em busca de soluções para criar uma rede de apoio ou sistema de emergência."
+                ]
+            }
+        ]
+    },
+    {
+        "aspect": "Atividades de Vida Diária",
+        "questions": [
+            {
+                "question": "Como você descreveria sua capacidade de realizar atividades básicas do dia a dia, como vestir-se, alimentar-se e tomar banho?",
+                "alternatives": [
+                    "Consigo realizar todas as atividades básicas de forma independente.",
+                    "Preciso de ajuda ocasional para algumas atividades específicas.",
+                    "Tenho dificuldades significativas em realizar atividades básicas sem assistência.",
+                    "Dependendo de outras pessoas para a maioria das atividades diárias.",
+                    "Não consigo realizar muitas atividades básicas de forma independente."
+                ]
+            },
+            {
+                "question": "Como está sua independência em atividades instrumentais, como cozinhar, fazer compras e gerenciar finanças?",
+                "alternatives": [
+                    "Sou totalmente independente em todas as atividades instrumentais.",
+                    "Realizo a maioria das atividades instrumentais, mas com alguma dificuldade.",
+                    "Preciso de auxílio regular para atividades instrumentais específicas.",
+                    "Tenho dificuldades significativas e dependo de outros para a maioria dessas atividades.",
+                    "Não consigo realizar atividades instrumentais de forma independente."
+                ]
+            },
+            {
+                "question": "Você tem enfrentado desafios em manter uma rotina regular de cuidados pessoais?",
+                "alternatives": [
+                    "Mantenho uma rotina regular de cuidados pessoais sem dificuldades.",
+                    "Às vezes, enfrento desafios em manter uma rotina consistente.",
+                    "Preciso de lembretes ou apoio para manter meus cuidados pessoais.",
+                    "Enfrento dificuldades significativas em manter uma rotina regular de cuidados pessoais.",
+                    "Tenho negligenciado consistentemente meus cuidados pessoais."
+                ]
+            },
+            {
+                "question": "Você se sente confortável e seguro(a) ao realizar suas atividades diárias?",
+                "alternatives": [
+                    "Sinto-me totalmente confortável e seguro(a) em minhas atividades diárias.",
+                    "Geralmente me sinto confortável, mas há situações que me causam desconforto.",
+                    "Sinto-me inseguro(a) em algumas atividades e preciso de apoio.",
+                    "Experimento insegurança significativa em várias atividades diárias.",
+                    "Evito algumas atividades devido ao medo ou insegurança."
+                ]
+            },
+            {
+                "question": "Como você avalia sua autonomia em tomar decisões relacionadas às suas atividades diárias?",
+                "alternatives": [
+                    "Tenho total autonomia e tomo decisões sem dificuldades.",
+                    "Geralmente tomo minhas próprias decisões, mas às vezes peço conselhos.",
+                    "Preciso de apoio para tomar decisões importantes relacionadas às atividades diárias.",
+                    "Tenho dificuldades significativas em tomar decisões e dependo de outros.",
+                    "Não consigo tomar decisões sobre minhas atividades diárias."
+                ]
+            }
+        ]
+    },
+    {
+        "aspect": "Vida Social e Participação Comunitária",
+        "questions": [
+            {
+                "question": "Como você descreveria sua rede de apoio social? Com que frequência interage com amigos, familiares ou vizinhos?",
+                "alternatives": [
+                    "Tenho uma rede de apoio social robusta e interajo regularmente com amigos e familiares.",
+                    "Mantenho contato com amigos e familiares, mas gostaria de aumentar a interação.",
+                    "Minha rede social é limitada, e a interação é esporádica.",
+                    "Sinto-me isolado(a) e tenho pouca interação com outras pessoas.",
+                    "Não tenho uma rede de apoio social ou interação com amigos e familiares."
+                ]
+            },
+            {
+                "question": "Você participa ativamente de atividades sociais ou grupos comunitários? Quais são suas principais formas de participação?",
+                "alternatives": [
+                    "Participo regularmente de grupos comunitários e atividades sociais.",
+                    "Participava mais ativamente no passado, mas agora estou um pouco menos envolvido(a).",
+                    "Tenho interesse, mas enfrento desafios em participar de atividades sociais.",
+                    "Minha participação é limitada devido a barreiras físicas ou outras limitações.",
+                    "Não participo de nenhuma atividade social ou grupo comunitário."
+                ]
+            },
+            {
+                "question": "Como você avalia o impacto da sua vida social na sua saúde emocional?",
+                "alternatives": [
+                    "Minha vida social contribui positivamente para minha saúde emocional.",
+                    "Tenho uma vida social equilibrada, mas às vezes sinto falta de mais interações.",
+                    "Sinto que uma vida social mais ativa poderia melhorar minha saúde emocional.",
+                    "Experimento solidão, afetando negativamente minha saúde emocional.",
+                    "A falta de vida social tem um impacto significativo em minha saúde emocional."
+                ]
+            },
+            {
+                "question": "Você se envolve em atividades voluntárias ou de apoio à comunidade?",
+                "alternatives": [
+                    "Sou ativo(a) em atividades voluntárias e contribuo para a comunidade.",
+                    "Já participei de atividades voluntárias, mas não estou atualmente envolvido(a).",
+                    "Tenho interesse em atividades voluntárias, mas ainda não encontrei oportunidades adequadas.",
+                    "Minhas limitações físicas ou de saúde impedem meu envolvimento em atividades voluntárias.",
+                    "Não tenho interesse ou capacidade para participar de atividades voluntárias."
+                ]
+            },
+            {
+                "question": "Você se sente integrado(a) e aceito(a) na sua comunidade local?",
+                "alternatives": [
+                    "Sinto-me totalmente integrado(a) e aceito(a) na comunidade.",
+                    "Tenho um senso de pertencimento, mas ocasionalmente sinto-me isolado(a).",
+                    "Sinto-me pouco integrado(a) na comunidade e enfrento desafios de aceitação.",
+                    "Experimento isolamento social e não me sinto parte da comunidade.",
+                    "Não tenho interação significativa com a comunidade local."
+                ]
+            }
+        ]
+    },
+    {
+        "aspect": "Finaças",
+        "questions": [
+            {
+                "question": "Como você descreveria sua segurança financeira atual?",
+                "alternatives": [
+                    "Tenho segurança financeira sólida e não enfrento preocupações.",
+                    "Estou financeiramente estável, mas mantenho um orçamento cuidadoso.",
+                    "Enfrento algumas preocupações financeiras, mas consigo administrar.",
+                    "Tenho preocupações significativas sobre minha segurança financeira.",
+                    "Estou em situação financeira precária e preciso de assistência urgente."
+                ]
+            },
+            {
+                "question": "Como você gerencia seus recursos financeiros diários e despesas regulares?",
+                "alternatives": [
+                    "Sou capaz de gerenciar minhas finanças de maneira eficaz e organizada.",
+                    "Preciso de alguma assistência para manter um controle adequado das finanças.",
+                    "Tenho dificuldade em gerenciar despesas e manter um orçamento equilibrado.",
+                    "Dependendo de outros para gerenciar minhas finanças diárias.",
+                    "Tenho dificuldades significativas em lidar com minhas finanças."
+                ]
+            },
+            {
+                "question": "Você tem um plano de aposentadoria ou está recebendo benefícios sociais?",
+                "alternatives": [
+                    "Tenho um plano de aposentadoria sólido e/ou recebo benefícios sociais adequados.",
+                    "Estou aposentado(a) e recebo benefícios, mas às vezes enfrento desafios.",
+                    "Não tenho um plano de aposentadoria significativo e/ou recebo benefícios limitados.",
+                    "Estou enfrentando dificuldades em obter benefícios sociais ou de aposentadoria.",
+                    "Não tenho plano de aposentadoria e enfrento dificuldades financeiras."
+                ]
+            },
+            {
+                "question": "Você tem dívidas significativas ou enfrenta desafios em relação a empréstimos e contas pendentes?",
+                "alternatives": [
+                    "Não tenho dívidas significativas e consigo pagar minhas contas regularmente.",
+                    "Tenho algumas dívidas, mas consigo gerenciá-las adequadamente.",
+                    "Estou enfrentando desafios com dívidas, mas procuro soluções.",
+                    "Tenho dívidas significativas e estou com dificuldades para pagá-las.",
+                    "Estou em situação de endividamento crítico e preciso de assistência."
+                ]
+            },
+            {
+                "question": "Você já procurou aconselhamento financeiro ou recebeu orientação sobre gestão de recursos?",
+                "alternatives": [
+                    "Nunca senti a necessidade de aconselhamento financeiro.",
+                    "Considerei buscar aconselhamento, mas ainda não tomei uma decisão.",
+                    "Procurei aconselhamento ocasionalmente para orientação financeira.",
+                    "Estou em busca de orientação financeira devido a desafios específicos.",
+                    "Preciso urgentemente de aconselhamento financeiro para melhorar minha situação."
+                ]
+            }
+        ]
+    },
+    {
+        "aspect": "Saude Sexual",
+        "questions": [
+            {
+                "question": "Como você descreveria sua satisfação geral com sua vida sexual?",
+                "alternatives": [
+                    "Estou muito satisfeito(a) com minha vida sexual.",
+                    "Em geral, estou satisfeito(a), mas há áreas que gostaria de melhorar.",
+                    "Tenho algumas preocupações, mas estou lidando com elas.",
+                    "Sinto-me insatisfeito(a) e gostaria de discutir questões específicas.",
+                    "Estou enfrentando dificuldades significativas e preciso de ajuda."
+                ]
+            },
+            {
+                "question": "Você enfrentou mudanças em sua saúde sexual recentemente? Isso afetou sua qualidade de vida?",
+                "alternatives": [
+                    "Não enfrentei mudanças significativas em minha saúde sexual.",
+                    "Algumas mudanças ocorreram, mas não afetaram significativamente minha qualidade de vida.",
+                    "Experimentei mudanças que causaram preocupações, mas estou gerenciando.",
+                    "Mudanças em minha saúde sexual impactaram negativamente minha qualidade de vida.",
+                    "Estou passando por desafios sérios na minha saúde sexual."
+                ]
+            },
+            {
+                "question": "Você se sente confortável discutindo questões de saúde sexual com profissionais de saúde?",
+                "alternatives": [
+                    "Sim, sinto-me totalmente confortável discutindo essas questões.",
+                    "Geralmente me sinto confortável, mas às vezes hesito em abordar o assunto.",
+                    "Tenho alguma hesitação, mas estou disposto(a) a discutir questões de saúde sexual.",
+                    "Sinto-me desconfortável discutindo questões de saúde sexual, mas estou considerando.",
+                    "Tenho grande dificuldade em abordar esse tema com profissionais de saúde."
+                ]
+            },
+            {
+                "question": "Você está atualmente enfrentando desafios de ordem física ou emocional em sua vida sexual?",
+                "alternatives": [
+                    "Não estou enfrentando desafios significativos em minha vida sexual.",
+                    "Algumas preocupações surgiram, mas ainda estou lidando bem com elas.",
+                    "Estou enfrentando desafios, mas procuro soluções.",
+                    "Experimento desafios significativos que afetam negativamente minha vida sexual.",
+                    "Estou enfrentando sérios problemas que necessitam de assistência imediata."
+                ]
+            },
+            {
+                "question": "Você discute abertamente sobre sua saúde sexual com seu parceiro ou parceira?",
+                "alternatives": [
+                    "Sim, temos uma comunicação aberta e honesta sobre nossa saúde sexual.",
+                    "Geralmente discutimos, mas há áreas em que poderíamos melhorar a comunicação.",
+                    "Temos algumas discussões, mas poderíamos melhorar a comunicação sobre saúde sexual.",
+                    "Evitamos frequentemente discutir questões de saúde sexual.",
+                    "Não tenho um parceiro(a) ou não discuto questões de saúde sexual."
+                ]
+            }
+        ]
+    },
+    {
+        "aspect": "Atividade Fisica e Lazer",
+        "questions": [
+            {
+                "question": "Como você descreveria seu nível de atividade física regular?",
+                "alternatives": [
+                    "Sou fisicamente ativo(a) regularmente e pratico exercícios.",
+                    "Tento manter um equilíbrio entre atividades físicas e descanso.",
+                    "Minha atividade física é limitada, mas tento me movimentar ocasionalmente.",
+                    "Tenho dificuldades em manter uma rotina regular de atividades físicas.",
+                    "Sou sedentário(a) e pratico pouca ou nenhuma atividade física."
+                ]
+            },
+            {
+                "question": "Quais são suas atividades físicas preferidas ou hobbies que envolvem movimento?",
+                "alternatives": [
+                    "Pratico atividades físicas específicas que adoro, como caminhadas ou natação.",
+                    "Tenho hobbies que envolvem movimento, como jardinagem ou dança.",
+                    "Faço algumas atividades leves de vez em quando, mas não tenho hobbies específicos.",
+                    "Já tive hobbies ativos, mas agora enfrento desafios em participar deles.",
+                    "Não tenho hobbies ou atividades físicas que envolvam movimento."
+                ]
+            },
+            {
+                "question": "Você encontra tempo para atividades de lazer que proporcionam relaxamento e prazer?",
+                "alternatives": [
+                    "Faço regularmente atividades de lazer que me trazem relaxamento e alegria.",
+                    "Tento reservar tempo para atividades de lazer, mas nem sempre consigo.",
+                    "Faço atividades de lazer ocasionalmente, mas não com regularidade.",
+                    "Tenho dificuldade em encontrar tempo para atividades de lazer.",
+                    "Não participo de atividades de lazer ou passatempos."
+                ]
+            },
+            {
+                "question": "Você participa de grupos ou clubes que compartilham interesses comuns, como esportes ou hobbies?",
+                "alternatives": [
+                    "Sou ativo(a) em grupos ou clubes e participo regularmente de atividades.",
+                    "Já participei de grupos ou clubes, mas não estou envolvido(a) atualmente.",
+                    "Tenho interesse em participar, mas ainda não encontrei oportunidades adequadas.",
+                    "Enfrento barreiras físicas ou de outra natureza para participar de grupos ou clubes.",
+                    "Não tenho interesse ou oportunidade para participar de grupos ou clubes."
+                ]
+            },
+            {
+                "question": "Como você equilibra o tempo dedicado à atividade física e ao lazer com outras responsabilidades diárias?",
+                "alternatives": [
+                    "Tenho um bom equilíbrio e priorizo o tempo para atividades físicas e de lazer.",
+                    "Tento equilibrar, mas, às vezes, as responsabilidades tomam a maior parte do meu tempo.",
+                    "É desafiador equilibrar atividades físicas e de lazer com minhas responsabilidades diárias.",
+                    "Dificuldades significativas em equilibrar, e as responsabilidades dominam meu tempo.",
+                    "Não tenho um equilíbrio adequado e raramente participo de atividades físicas ou de lazer."
+                ]
+            }
+        ]
+    },
+    {
+        "aspect": "Cuidados de Saude",
+        "questions": [
+            {
+                "question": "Como você avaliaria sua acessibilidade aos cuidados de saúde?",
+                "alternatives": [
+                    "Tenho fácil acesso a uma variedade de serviços de saúde.",
+                    "Acesso aos cuidados de saúde é geralmente conveniente, mas às vezes enfrento desafios.",
+                    "Encontro algumas dificuldades em acessar certos serviços de saúde.",
+                    "Tenho acesso limitado a cuidados de saúde e enfrento barreiras significativas.",
+                    "Tenho dificuldades extremas em acessar os cuidados de saúde necessários."
+                ]
+            },
+            {
+                "question": "Com que frequência realiza exames de saúde preventivos ou consultas médicas de rotina?",
+                "alternatives": [
+                    "Faço regularmente exames preventivos e consultas médicas de rotina.",
+                    "Realizo esses exames com uma frequência razoável.",
+                    "Faço exames preventivos ocasionalmente, mas nem sempre com regularidade.",
+                    "Tenho dificuldades em realizar exames preventivos regularmente.",
+                    "Não realizo exames preventivos ou consultas médicas de rotina."
+                ]
+            },
+            {
+                "question": "Você está satisfeito(a) com a qualidade dos cuidados de saúde que recebe?",
+                "alternatives": [
+                    "Estou muito satisfeito(a) com a qualidade dos cuidados de saúde que recebo.",
+                    "Geralmente satisfeito(a), mas há áreas que poderiam ser melhoradas.",
+                    "Sinto que a qualidade dos cuidados é aceitável, mas poderia ser aprimorada.",
+                    "Estou insatisfeito(a) com a qualidade dos cuidados de saúde que recebo.",
+                    "A qualidade dos cuidados que recebo é inaceitável."
+                ]
+            },
+            {
+                "question": "Como você lida com a administração de medicamentos e tratamentos prescritos?",
+                "alternatives": [
+                    "Gerencio minha medicação e tratamentos de forma independente.",
+                    "Consigo gerenciar, mas às vezes enfrento dificuldades com a administração.",
+                    "Preciso de ajuda ocasional para administrar medicamentos e tratamentos.",
+                    "Enfrento desafios significativos na administração de medicamentos e tratamentos.",
+                    "Dependo inteiramente de outros para a administração de medicamentos e tratamentos."
+                ]
+            },
+            {
+                "question": "Você se comunica abertamente com seus profissionais de saúde sobre suas preocupações e sintomas?",
+                "alternatives": [
+                    "Tenho uma comunicação aberta e eficaz com meus profissionais de saúde.",
+                    "Geralmente comunico minhas preocupações, mas às vezes hesito.",
+                    "Tenho algumas dificuldades em compartilhar todas as minhas preocupações.",
+                    "Sinto-me desconfortável em discutir minhas preocupações com profissionais de saúde.",
+                    "Evito comunicar minhas preocupações de saúde com profissionais."
+                ]
+            }
+        ]
+    },
+    {
+        "aspect": "Espiritualidade e Significado de Vida",
+        "questions": [
+            {
+                "question": "Como você descreveria sua prática espiritual ou conexão com uma dimensão mais ampla da vida?",
+                "alternatives": [
+                    "Tenho uma prática espiritual regular que me traz paz e significado.",
+                    "Tenho alguma conexão espiritual, mas não pratico regularmente.",
+                    "Sinto uma conexão espiritual ocasional, mas não tenho uma prática regular.",
+                    "Tenho uma conexão espiritual frágil ou inexistente.",
+                    "Não tenho uma prática espiritual e não me sinto conectado(a) a algo maior."
+                ]
+            },
+            {
+                "question": "Como você encontra significado e propósito em sua vida diária?",
+                "alternatives": [
+                    "Tenho um claro senso de propósito e significado em tudo o que faço.",
+                    "Encontro significado em muitas áreas da minha vida, mas algumas ainda estão indefinidas.",
+                    "Estou em busca de significado e propósito, mas ainda não encontrei completamente.",
+                    "Sinto falta de um sentido claro de propósito em minha vida.",
+                    "Não tenho uma compreensão clara de significado ou propósito em minha vida."
+                ]
+            },
+            {
+                "question": "Você enfrentou desafios ou crises que impactaram sua fé ou perspectiva espiritual?",
+                "alternatives": [
+                    "Enfrentei desafios, mas minha fé ou perspectiva espiritual permaneceu forte.",
+                    "Desafios afetaram temporariamente minha fé, mas consegui superar.",
+                    "Desafios tiveram um impacto significativo em minha fé ou perspectiva espiritual.",
+                    "Desafios abalaram minha fé, e estou em busca de renovar minha perspectiva espiritual.",
+                    "Não tenho fé ou perspectiva espiritual para serem impactadas."
+                ]
+            },
+            {
+                "question": "Como você lida com questões existenciais, como morte e significado da vida?",
+                "alternatives": [
+                    "Lido bem com questões existenciais e encontro significado em todos os aspects da vida.",
+                    "Às vezes, reflito sobre essas questões, mas não me causam grande preocupação.",
+                    "Tenho dificuldades ocasionais ao lidar com questões existenciais.",
+                    "Questões existenciais me causam preocupação significativa e desconforto.",
+                    "Evito reflexões sobre questões existenciais devido ao desconforto."
+                ]
+            },
+            {
+                "question": "Você participa de práticas ou comunidades que compartilham valores espirituais ou filosóficos semelhantes?",
+                "alternatives": [
+                    "Sou ativo(a) em práticas ou comunidades espirituais que compartilham meus valores.",
+                    "Participei no passado, mas atualmente não estou envolvido(a).",
+                    "Tenho interesse em participar, mas ainda não encontrei a comunidade certa.",
+                    "Não participo de práticas espirituais ou comunidades com valores semelhantes.",
+                    "Não tenho interesse ou oportunidade para participar de tais práticas ou comunidades."
+                ]
+            }
+        ]
+    },
+    {
+        "aspect": "Educação Cotidiana",
+        "questions": [
+            {
+                "question": "Você procura oportunidades de aprendizado contínuo e desenvolvimento pessoal?",
+                "alternatives": [
+                    "Estou constantemente em busca de oportunidades para aprender e crescer.",
+                    "Busco ativamente oportunidades, mas nem sempre com regularidade.",
+                    "Tenho interesse em aprender mais, mas não sei por onde começar.",
+                    "Tenho dificuldades em encontrar oportunidades de aprendizado.",
+                    "Não tenho interesse em buscar novas oportunidades de aprendizado."
+                ]
+            },
+            {
+                "question": "Como você avalia sua participação em cursos, workshops ou atividades educacionais recentes?",
+                "alternatives": [
+                    "Participo regularmente e acho essas atividades altamente benéficas.",
+                    "Já participei, mas não estou atualmente envolvido(a) em atividades educacionais.",
+                    "Participaria se houvesse oportunidades mais acessíveis ou relevantes.",
+                    "Tive dificuldades em participar devido a limitações específicas.",
+                    "Não participei de atividades educacionais recentemente."
+                ]
+            },
+            {
+                "question": "Você acredita que a educação continuada é importante para o seu desenvolvimento pessoal?",
+                "alternatives": [
+                    "Sim, considero a educação continuada crucial para meu desenvolvimento pessoal.",
+                    "Acredito que é importante, mas nem sempre coloco em prática.",
+                    "Tenho alguma dúvida sobre a importância da educação continuada.",
+                    "Não vejo grande relevância na educação continuada para mim.",
+                    "Não considero a educação continuada importante para meu desenvolvimento."
+                ]
+            },
+            {
+                "question": "Você enfrenta barreiras específicas para a participação em atividades educacionais?",
+                "alternatives": [
+                    "Não enfrento barreiras significativas e posso participar facilmente.",
+                    "Algumas barreiras existem, mas consigo superá-las quando necessário.",
+                    "Barreiras específicas dificultam minha participação regular em atividades educacionais.",
+                    "Enfrento desafios significativos que limitam minha participação em aprendizado contínuo.",
+                    "Barreiras intransponíveis impedem minha participação em atividades educacionais."
+                ]
+            },
+            {
+                "question": "Você consideraria aulas online ou outras formas de educação à distância para continuar aprendendo?",
+                "alternatives": [
+                    "Sim, estou aberto(a) a participar de aulas online ou outras formas de educação à distância.",
+                    "Consideraria, mas teria algumas preocupações ou limitações.",
+                    "Não tenho certeza sobre aulas online, mas poderia considerar outras formas de educação à distância.",
+                    "Tenho dificuldades significativas em participar de qualquer forma de educação à distância.",
+                    "Não tenho interesse em participar de aulas online ou educação à distância."
+                ]
+            }
+        ]
+    },
+    {
+        "aspect": "Acesso a Tecnologia",
+        "questions": [
+            {
+                "question": "Você tem acesso a dispositivos tecnológicos, como computadores, smartphones ou tablets?",
+                "alternatives": [
+                    "Sim, tenho acesso a uma variedade de dispositivos tecnológicos.",
+                    "Tenho acesso a alguns dispositivos, mas não a todos.",
+                    "Meu acesso a dispositivos tecnológicos é limitado.",
+                    "Não tenho acesso a dispositivos tecnológicos.",
+                    "Tenho dispositivos, mas enfrento dificuldades em utilizá-los."
+                ]
+            },
+            {
+                "question": "Com que frequência você utiliza a internet para se comunicar, obter informações ou participar de atividades online?",
+                "alternatives": [
+                    "Uso a internet regularmente para várias finalidades.",
+                    "Uso a internet ocasionalmente, mas não com muita frequência.",
+                    "Uso a internet, mas com limitações devido a habilidades ou acesso.",
+                    "Raramente utilizo a internet devido a barreiras específicas.",
+                    "Não uso a internet."
+                ]
+            },
+            {
+                "question": "Você se sente confortável utilizando aplicativos ou plataformas online para comunicação e entretenimento?",
+                "alternatives": [
+                    "Sim, sinto-me confortável utilizando várias plataformas online.",
+                    "Sou razoavelmente confortável, mas há áreas que me desafiam.",
+                    "Tenho dificuldades em usar aplicativos ou plataformas online.",
+                    "Sinto-me desconfortável e evito o uso de aplicativos ou plataformas online.",
+                    "Não tenho experiência com aplicativos ou plataformas online."
+                ]
+            },
+            {
+                "question": "Você utiliza redes sociais para manter contato com amigos, familiares ou comunidade?",
+                "alternatives": [
+                    "Sim, sou ativo(a) em várias redes sociais.",
+                    "Participo de redes sociais, mas não com muita frequência.",
+                    "Tenho contas em redes sociais, mas não as utilizo com regularidade.",
+                    "Não participo de redes sociais devido a desafios específicos.",
+                    "Não tenho contas em redes sociais."
+                ]
+            },
+            {
+                "question": "Você já recebeu treinamento ou suporte para utilizar tecnologia digital?",
+                "alternatives": [
+                    "Sim, recebi treinamento e me sinto confiante no uso da tecnologia.",
+                    "Recebi treinamento, mas ainda me sinto inseguro(a) em algumas áreas.",
+                    "Recebi treinamento limitado e enfrento desafios no uso da tecnologia.",
+                    "Não recebi treinamento, mas gostaria de aprender.",
+                    "Não tenho interesse ou necessidade de aprender tecnologia."
+                ]
+            }
+        ]
+    },
+    {
+        "aspect": "Planejamento para o Futuro",
+        "questions": [
+            {
+                "question": "Você tem um plano financeiro para a aposentadoria ou para cobrir despesas futuras?",
+                "alternatives": [
+                    "Sim, tenho um plano financeiro bem estruturado para a aposentadoria.",
+                    "Tenho um plano, mas ainda estou refinando alguns detalhes.",
+                    "Tenho noções de planejamento financeiro, mas não tenho um plano formal.",
+                    "Não tenho um plano financeiro para a aposentadoria.",
+                    "Nunca considerei a necessidade de um plano financeiro para o futuro."
+                ]
+            },
+            {
+                "question": "Você tem um testamento, procuração ou documentos legais que delineiem seus desejos futuros?",
+                "alternatives": [
+                    "Sim, tenho todos os documentos legais necessários em vigor.",
+                    "Tenho alguns documentos, mas ainda preciso organizar outros.",
+                    "Já considerei a necessidade desses documentos, mas ainda não os preparei.",
+                    "Não tenho documentos legais estabelecidos para orientar meus desejos futuros.",
+                    "Não estou familiarizado(a) com a importância desses documentos."
+                ]
+            }
+        ]
+    }
+]
