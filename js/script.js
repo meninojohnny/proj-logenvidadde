@@ -1,80 +1,44 @@
-var perguntas = [
-    {
-        pergunta: 'Pergunta 1',
-        alternativas: [
-            'Alternativa 1',
-            'Alternativa 2',
-            'Alternativa 3',
-            'Alternativa 4',
-            'Alternativa 5'
-        ]
-    },
-    {
-        pergunta: 'Pergunta 2',
-        alternativas: [
-            'Alternativa 1',
-            'Alternativa 2',
-            'Alternativa 3',
-            'Alternativa 4',
-            'Alternativa 5'
-        ]
-    },
-    {
-        pergunta: 'Pergunta 3',
-        alternativas: [
-            'Alternativa 1',
-            'Alternativa 2',
-            'Alternativa 3',
-            'Alternativa 4',
-            'Alternativa 5'
-        ]
-    },
-    {
-        pergunta: 'Pergunta 5',
-        alternativas: [
-            'Alternativa 1',
-            'Alternativa 2',
-            'Alternativa 3',
-            'Alternativa 4',
-            'Alternativa 5'
-        ]
-    },
-]
-
-function redirectToAnotherPage(url) {
-    window.location.href = url
+async function getQuestions() {
+    return fetch('../questions.json')
+    .then(response => response.json())
+    .then(data => {
+        return data
+    })
 }
 
-function logInto() {
-    var valueEmail = document.getElementById('email').value;
-    var valuePassword = document.getElementById('password').value;
-
-    if (valueEmail != '' && valuePassword != '') {
-        redirectToAnotherPage('../html/form.html')
-    } else {
-        alert('Preencha os campos de email e senha.')
+async function insertElementSpectoBtn() {
+    var section = document.querySelector('#section')
+    var questions = await getQuestions()
+    for (var i = 0;i < questions.length; i++) {
+        var aspect = questions[i]
+        section.innerHTML += 
+            `<div id="${i}" class="aspect-btn" onclick="showBox(id)"> 
+                <h1>${aspect.aspect}</h1> 
+                <img id="box${i}" src="../images/chevron-down.svg" alt="">
+            </div>`
+        section.innerHTML += `<div id="aspect${i}" class="aspect"></div>`
+        insertQuestions(questions[i].questions, i)
     }
 }
 
-function insertQuestions() {
-    var div = document.getElementsByClassName("aspecto")
-    for (var i = 0;i < div.length;i++) {
-        box = div[i]
-        for (var j = 0;j < perguntas.length;j++) {
-            var pergunta = perguntas[j]
-            var alternativas = pergunta['alternativas']
-            box.innerHTML += `<h4>${pergunta['pergunta']}</h4>`
-            for (var k = 0;k < alternativas.length;k++) {
-                box.innerHTML += `<label for="aspect${i}-pergunta${j}-alternativa${k}"><input type="radio" id="aspect${i}-pergunta${j}-alternativa${k}" name="aspect${i}-pergunta${j}">${alternativas[k]}</label>`  
-            }
+function insertQuestions(questions, id) {
+    var div = document.querySelector(`#aspect${id}`)
+    for (var i = 0;i < questions.length;i++) {
+        var question = questions[i]
+        var alternatives = questions[i].alternatives
+        div.innerHTML += `<h4>${question.question}</h4>`
+        for (var j = 0;j < alternatives.length;j++) {
+            div.innerHTML += 
+                `<label for="aspect${id}-question${i}-alternativa${j}">
+                    <input type="radio" id="aspect${id}-question${i}-alternativa${j}" name="aspect${id}-question${i}">
+                    ${alternatives[j]}
+                </label>`
         }
     }
 }
 
-insertQuestions()
-
 function showBox(id) {
-    var div = document.querySelector(`#aspecto${id}`)
+    var div = document.querySelector(`#aspect${id}`)
     var icon = document.querySelector(`#box${id}`)
 
     var open = div.style.display == "flex"
@@ -82,4 +46,6 @@ function showBox(id) {
     icon.src = open ? "../images/chevron-down.svg" : "../images/chevron-up.svg"
 }
 
-// git add . ; git commit -m "update" ; git push origin main
+insertElementSpectoBtn()
+
+// git add . ; git commit -m "update" ; git push origin main"
