@@ -14,7 +14,7 @@ async function insertElementSpectoBtn() {
         section.innerHTML += 
             `<div id="${i}" class="aspect-btn" onclick="showBox(id)"> 
                 <h1>${aspect.aspect}</h1> 
-                <img id="box${i}" src="../images/chevron-down.svg" alt="">
+                <img class="icon" id="box${i}" src="../images/chevron-down.svg" alt="">
             </div>`
         section.innerHTML += `<div id="aspect${i}" class="aspect"></div>`
         insertQuestions(questions[i].questions, i)
@@ -37,15 +37,31 @@ function insertQuestions(questions, id) {
     }
 }
 
-function showBox(id) {
-    var div = document.querySelector(`#aspect${id}`)
-    var icon = document.querySelector(`#box${id}`)
+function closeAllBoxs() {
+    var boxs = document.querySelectorAll('.aspect')
+    var icons = document.querySelectorAll('.icon')
+    for (var i = 0;i < boxs.length;i++) {
+        var box = boxs[i]
+        var icon = icons[i]
+        box.style.display = 'none'
+        icon.src = '../images/chevron-down.svg' 
+    }
+}
 
-    var open = div.style.display == "flex"
-    div.style.display = open ? "none" : "flex"
-    icon.src = open ? "../images/chevron-down.svg" : "../images/chevron-up.svg"
+var closeController = null
+
+function showBox(id) {
+    closeAllBoxs()
+    if (closeController == id) {
+        return;
+    } else {
+        var div = document.querySelector(`#aspect${id}`)
+        var icon = document.querySelector(`#box${id}`)
+        var open = div.style.display == "flex"
+        div.style.display = "flex"
+        icon.src = open ? "../images/chevron-down.svg" : "../images/chevron-up.svg"
+        closeController = id
+    }
 }
 
 insertElementSpectoBtn()
-
-// git add . ; git commit -m "update" ; git push origin main"

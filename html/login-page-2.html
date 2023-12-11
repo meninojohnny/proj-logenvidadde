@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login page</title>
-    <link rel="stylesheet" href="..\styles\style.css">
+    <link rel="stylesheet" href="..\styles\style-login-page-2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </head>
@@ -12,29 +12,36 @@
 
     <main>
 
-        <img src="../images/HelloFit.png" alt="">
+        <img id="logo-users" src="../images/icon-users(1).png" alt="">
 
-        <h1>Faça login na sua conta</h1>
+        <h1>Conta do usuário</h1>
         
-            <div class="input-box">  
+            <div class="input-box">
+                <img src="../images/e-mail.png" alt="">
                 <input type="text" id="email" placeholder="Email" required>
-                <box-icon name='envelope' color="#9b9090"></box-icon>
             </div>
 
             <div class="input-box">
+                <img src="../images/cadeado.png" alt="">
                 <input type="password" id="password" placeholder="Senha" required>
-                <box-icon name='lock-alt' color="#9b9090"></box-icon>
             </div>
        
         <div class="remember-forgot"> 
-            <label for="checkbox" name="checkbox"> <input type="checkbox" name="" id="checkbox"> Lembrar me</label>
+            <label for="checkbox" name="checkbox"> <input type="checkbox" name="" id="checkbox">Mantenha-me conectado!</label>
             <a href="">Esqueceu sua senha?</a>
         </div>
         
-        <button onclick="logInto()" class="btn">Login in</button>
+        <button onclick="logInto()" class="btn">Entrar</button>
 
         <div class="register-link">
-            <p>Não possui uma conta? <a href="">Criar uma conta</a></p>
+            <p>Não possui uma conta? <a href="">Crie uma conta.</a></p>
+        </div>
+
+        <div class="login-alternatives">
+            <img src="../images/facebook.png" alt="">
+            <img src="../images/logotipo-da-carta-do-google.png" alt="">
+            <img src="../images/smartphone.png" alt="">
+            <img src="../images/settings.png" alt="">
         </div>
 
     </main>
