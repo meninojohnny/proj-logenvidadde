@@ -78,6 +78,7 @@ a:hover {
     position: relative;
     border-radius: 5px;
     overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(126, 123, 123, 0.148);
 }
 
 .input-box img {
@@ -133,12 +134,13 @@ a:hover {
     border-radius: 4px;
     margin-bottom: 25px;
     cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(126, 123, 123, 0.148);
 }
 
 .btn:hover {
     background-color: transparent;
-    color: var(--secundary-color);
-    border: 1px solid var(--secundary-color);
+    color: #39a58c;
+    outline: 1px solid #39a58c;
 }
 
 .register-link {
@@ -150,6 +152,8 @@ a:hover {
 }
 
 .login-alternatives {
+    display: flex;
+    gap: 10px;
 }
 
 .login-alternatives img {
@@ -158,6 +162,7 @@ a:hover {
     border-radius: 50%;
     background-color: #53CAAE;
     padding: 5px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 850px) {

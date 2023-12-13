@@ -87,7 +87,7 @@ button {
 }
 
 button:hover {
-    border: 1px solid var(--secundary-color);
+    outline: 1px solid var(--secundary-color);
     color: var(--secundary-color);
     background-color: transparent;
 }
